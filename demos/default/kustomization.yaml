@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+components:
+- ../../components/advanced-cluster-security
+- ../../components/minio
+- ../../components/rhoai-ready
+- ../../components/web-terminal

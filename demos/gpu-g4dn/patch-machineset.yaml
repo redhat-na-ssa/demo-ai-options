@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: job-aws-gpu-machineset
+  namespace: nvidia-gpu-operator
+spec:
+  template:
+    spec:
+      containers:
+      - name: job-aws-gpu-machineset
+        env:
+        - name: INSTANCE_TYPE
+          value: g4dn.12xlarge

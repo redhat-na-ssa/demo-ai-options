@@ -1,0 +1,15 @@
+apiVersion: monitoring.rhobs/v1
+kind: ServiceMonitor
+metadata:
+  labels:
+    k8s-app: prometheus-coo-triton-server-monitor
+  name: prometheus-coo-triton-server-monitor
+  namespace: demo-triton
+spec:
+  endpoints:
+  - interval: 30s
+    port: 8000
+    scheme: http
+  selector:
+    matchLabels:
+      app: triton-server

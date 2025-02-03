@@ -1,0 +1,5 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+
+resources:
+- https://github.com/redhat-na-ssa/demo-ai-gitops-catalog/components/operators/devspaces/aggregate/overlays/nvidia-gpu?ref=9d6d4e6b331e2d7b28c182cc3a6225e5cc96dd0c
