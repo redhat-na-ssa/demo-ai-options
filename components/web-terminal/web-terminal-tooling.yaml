@@ -18,10 +18,10 @@ spec:
             #!/bin/bash
 
             echo "
-            GIT_REPO=https://github.com/codekow/just-in-time-cluster
+            GIT_REPO=https://github.com/redhat-na-ssa/demo-ai-options
 
-            [ -e ~/just-in-time-cluster ] || git clone \${GIT_REPO}
-            [ -e ~/just-in-time-cluster ] && cd ~/just-in-time-cluster
+            [ -e ~/demo-ai-options ] || git clone \${GIT_REPO}
+            [ -e ~/demo-ai-options ] && cd ~/demo-ai-options
 
             " >> /home/user/.bashrc
 
