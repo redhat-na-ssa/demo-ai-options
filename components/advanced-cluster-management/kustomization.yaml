@@ -1,0 +1,6 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+
+resources:
+  - https://github.com/redhat-cop/gitops-catalog/advanced-cluster-management/instance/base?ref=6fe7d8b43b000bc62aa51e5595eddde271c3f826
+  - https://github.com/redhat-cop/gitops-catalog/advanced-cluster-management/operator/overlays/release-2.12?ref=ee43e77718a46e6b270e9fb61fc4acc8653ee39b
