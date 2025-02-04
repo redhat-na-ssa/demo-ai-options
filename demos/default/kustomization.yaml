@@ -6,7 +6,9 @@ components:
 - ../../components/advanced-cluster-security
 - ../../components/branding
 - ../../components/devspaces
+- ../../components/htpasswd
 - ../../components/minio
+- ../../components/namespaces
 - ../../components/rhoai-ready
 - ../../components/web-terminal
 
