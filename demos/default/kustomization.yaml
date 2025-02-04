@@ -9,3 +9,12 @@ components:
 - ../../components/minio
 - ../../components/rhoai-ready
 - ../../components/web-terminal
+
+patches:
+  - target:
+      kind: ConsoleNotification
+      name: banner-demo
+    patch: |-
+      - op: replace
+        path: /spec/text
+        value: 'DEMO: OpenShift as an AI Platform'
