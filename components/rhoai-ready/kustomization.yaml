@@ -18,3 +18,11 @@ patches:
   - target:
       kind: NodeFeatureDiscovery
     path: patch-node-feature-discovery.yaml
+  - target:
+      kind: ClusterPolicy
+      name: gpu-cluster-policy
+    path: patch-gpu-cluster-policy.yaml
+  - target:
+      kind: ConfigMap
+      name: device-plugin-config
+    path: patch-device-plugin-config.yaml
