@@ -9,5 +9,5 @@ oc login to cluster
 until oc apply -k demos/default ; do : ; done
 
 # if not cloned
-until oc apply -k https://github.com/redhat-na-ssa/demo-ai-options.git ; do : ; done
+until oc apply -k https://github.com/redhat-na-ssa/demo-ai-options/demos/default ; do : ; done
 ```
