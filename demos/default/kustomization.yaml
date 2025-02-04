@@ -4,6 +4,7 @@ kind: Kustomization
 components:
 - ../../components/advanced-cluster-management
 - ../../components/advanced-cluster-security
+- ../../components/branding
 - ../../components/devspaces
 - ../../components/minio
 - ../../components/rhoai-ready
