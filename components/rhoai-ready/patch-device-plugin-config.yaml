@@ -19,3 +19,10 @@ data:
         resources:
           - name: nvidia.com/gpu
             replicas: 4
+  time-sliced-8: |-
+    version: v1
+    sharing:
+      timeSlicing:
+        resources:
+          - name: nvidia.com/gpu
+            replicas: 8
