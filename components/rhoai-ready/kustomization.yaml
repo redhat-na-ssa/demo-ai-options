@@ -41,3 +41,6 @@ patches:
           modelregistry:
             managementState: Managed
             registriesNamespace: rhoai-model-registries
+  - target:
+      kind: NodeFeatureDiscovery
+    path: patch-node-feature-discovery.yaml
