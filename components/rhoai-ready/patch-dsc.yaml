@@ -1,0 +1,26 @@
+- op: add
+  path: /spec/components
+  value:
+    codeflare:
+      managementState: Managed
+    dashboard:
+      managementState: Managed
+    datasciencepipelines:
+      managementState: Managed
+    kserve:
+      managementState: Managed
+    kueue:
+      managementState: Managed
+    modelmeshserving:
+      managementState: Managed
+    ray:
+      managementState: Managed
+    trainingoperator:
+      managementState: Managed
+    trustyai:
+      managementState: Managed
+    workbenches:
+      managementState: Managed
+    modelregistry:
+      managementState: Managed
+      registriesNamespace: rhoai-model-registries
